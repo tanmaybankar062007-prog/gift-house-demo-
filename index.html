@@ -55,7 +55,21 @@ h2{font-size:clamp(1.7rem,4vw,2.3rem);margin-bottom:8px;color:var(--kumkum)}
 .mapbox{background:var(--kumkum);color:#fff;border-radius:8px;padding:28px;display:flex;flex-direction:column;gap:14px;justify-content:center}
 footer{background:var(--kumkum2);color:#e9c9c5;padding:22px 0;font-size:.9rem;text-align:center}
 .float{position:fixed;right:16px;bottom:16px;z-index:9;box-shadow:0 6px 18px rgba(0,0,0,.3);border-radius:999px}
-@media(max-width:720px){.hero .wrap,.visit{grid-template-columns:1fr}.arch{max-width:200px}.arch span{font-size:4.6rem}.hero{padding-bottom:48px}}
+@media (max-width:720px){
+.hero .wrap,.visit{grid-template-columns:1fr}
+.arch{max-width:200px}
+.arch span{font-size:4.6rem}
+.hero{padding-bottom:48px}
+section{padding:40px 0}
+.grid{grid-template-columns:1fr 1fr;gap:12px}
+.thumb{aspect-ratio:1/1;font-size:2.8rem}
+.thumb img{object-position:center}
+.body{padding:10px 12px 12px}
+.card h3{font-size:1rem}
+.card p{font-size:.85rem;line-height:1.4}
+.card a{font-size:.9rem}
+.sub{margin-bottom:20px}
+}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style>
 </head>
